@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Jquery</title>
+</head>
+<body>
+    <div id="userData"></div>
+    <script>
+        let input = document.getElementById("userData");
+        $.ajax({
+            method: 'GET',
+            url: '/api/name',
+            success: (data) => {
+                $('#userData').html(data);
+            }
+        });
+    </script>
+</body>
+</html>

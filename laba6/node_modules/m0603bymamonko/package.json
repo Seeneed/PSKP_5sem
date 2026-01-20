@@ -1,0 +1,14 @@
+{
+  "name": "m0603bymamonko",
+  "version": "1.0.0",
+  "description": "module for email",
+  "main": "m0603.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "email"
+  ],
+  "author": "Mamonko D",
+  "license": "ISC"
+}

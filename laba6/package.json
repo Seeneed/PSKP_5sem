@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "m0603bymamonko": "^1.0.0",
+    "nodemailer": "^7.0.10",
+    "sendmail": "^1.6.1"
+  }
+}
